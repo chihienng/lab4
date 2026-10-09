@@ -1,0 +1,58 @@
+/*
+
+filename: lab04/styles
+
+author: Chi Hien Nguyen
+
+created: 10/10/26
+
+last modified: 10/10/26
+
+description: dont know
+
+*/
+
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+    
+
+/* change the font of all elements */
+ * { font-family: calibri, sans-serif; }  
+
+
+ /*set the default colour of all element */
+ * {
+    color: #2F2F2F;
+ }
+
+/* Style all h2 elements */
+h2 {
+    color: rgb(0, 128, 128);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+
+/* Make aside and footer italic */
+aside, footer {
+    font-style: italic;
+}
+
+/* Make all headings use Arial */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+/* Add a border to the table */
+table {
+    border: 1px solid black;
+}
+
+/* Add borders to the table and its cells */
+table, th, td {
+    border: 1px solid black;
+}
